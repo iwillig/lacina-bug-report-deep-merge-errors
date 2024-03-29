@@ -1,0 +1,23 @@
+enum episode {
+  NEWHOPE
+  EMPIRE
+  JEDI
+}
+
+type Episode {
+  id: ID
+  name: String!
+}
+
+type Character {
+  name: String!
+  episodes: [Episode]
+}
+
+type Query {
+  findAllInEpisode: [Character]
+}
+
+schema {
+  query: Query
+}

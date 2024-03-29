@@ -1,0 +1,12 @@
+query HeroNameAndFriends {
+  findAllInEpisode {
+    name
+    ...episodes
+  }
+}
+
+fragment episodes on Character {
+  episodes {
+    name
+  }
+}

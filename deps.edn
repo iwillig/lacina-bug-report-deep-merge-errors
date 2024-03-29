@@ -1,0 +1,5 @@
+{:deps {com.walmartlabs/lacinia {:mvn/version "1.2.2"}
+        lambdaisland/kaocha     {:mvn/version "1.87.1366"}
+        org.clojure/clojure     {:mvn/version "1.11.2"}}
+
+ :paths ["src" "dev" "test" "resources"]}
